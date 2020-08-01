@@ -7,8 +7,8 @@
 import com.atomicscala.AtomicTest._
 
 case class Exclaim3(var s: String) {
-    def parens() = s + "!"
+    def noParens = s + "!"
 }
 
 val e3 = new Exclaim3("yes")
-e3.parens() is "yes!"
+e3.parens is "yes!"

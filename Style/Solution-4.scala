@@ -14,8 +14,8 @@ import com.atomicscala.AtomicTest._
 case class Exclaim4(var s: String) {
     var count = 0
     def parens() = {
-        s + "!"
         count += 1
+        s + "!"
     }
 }
 
